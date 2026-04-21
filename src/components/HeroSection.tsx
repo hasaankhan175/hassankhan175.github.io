@@ -78,10 +78,10 @@ const HeroSection = () => {
           {">"} Hello, World!
         </p>
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 animate-fade-in-up opacity-0" style={{ animationDelay: "0.4s" }}>
-          I'm <span className="text-primary glow-text">Your Name</span>
+          I'm <span className="text-primary glow-text">Hasaan</span>
         </h1>
         <p className="text-lg md:text-2xl text-muted-foreground mb-8 animate-fade-in-up opacity-0" style={{ animationDelay: "0.7s" }}>
-          Data Scientist · AI & ML Enthusiast · Analytics Expert
+          ML Engineer · Data Scientist · Analytics Expert
         </p>
         <div className="flex justify-center gap-4 animate-fade-in-up opacity-0" style={{ animationDelay: "1s" }}>
           <a

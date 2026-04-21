@@ -8,9 +8,9 @@ const KaggleIcon = () => (
 );
 
 const links = [
-  { icon: Github, label: "GitHub", href: "https://github.com", color: "hover:text-primary" },
-  { icon: KaggleIcon, label: "Kaggle", href: "https://kaggle.com", color: "hover:text-primary", isCustom: true },
-  { icon: Mail, label: "Email", href: "mailto:your@email.com", color: "hover:text-primary" },
+  { icon: Github, label: "GitHub", href: "https://github.com/hasaankhan175", color: "hover:text-primary" },
+  { icon: KaggleIcon, label: "Kaggle", href: "https://www.kaggle.com/hasaankhan175", color: "hover:text-primary", isCustom: true },
+  { icon: Mail, label: "Email", href: "mailto:hasaankhan175@gmail.com", color: "hover:text-primary" },
 ];
 
 const ContactSection = () => (

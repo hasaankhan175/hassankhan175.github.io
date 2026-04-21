@@ -4,34 +4,34 @@ import ScrollReveal from "./ScrollReveal";
 
 const projects = [
   {
-    title: "Customer Churn Prediction",
-    desc: "Built a classification model to predict customer churn using ensemble methods with 94% accuracy.",
-    link: "#",
+    title: "Shoe Price EDA",
+    desc: "An exploratory data analysis project that investigates shoe pricing trends using data visualization and statistical techniques. Focuses on understanding price distributions, outliers, and key factors affecting shoe prices.",
+    link: "https://github.com/hasaankhan175/Shoe-Price-EDA",
   },
   {
-    title: "Sentiment Analysis Pipeline",
-    desc: "End-to-end NLP pipeline for real-time sentiment analysis of social media data using transformers.",
-    link: "#",
+    title: "Taxi Fare Prediction",
+    desc: "A regression-based machine learning project that predicts taxi fares using features like distance, time, and passenger count. Includes data cleaning, EDA, and model training to estimate fare prices.",
+    link: "https://github.com/hasaankhan175/Taxi_Fare_Pred",
   },
   {
-    title: "Sales Forecasting Dashboard",
-    desc: "Interactive time series forecasting dashboard using Prophet and Streamlit for retail analytics.",
-    link: "#",
+    title: "Bank Churn Prediction",
+    desc: "A machine learning project that predicts whether bank customers are likely to churn based on behavioral and demographic data. Uses Random Forest, Decision Tree, and Logistic Regression for classification.",
+    link: "https://github.com/hasaankhan175/Bank_Churn_Pred",
   },
   {
-    title: "Image Classification CNN",
-    desc: "Deep learning model for medical image classification using convolutional neural networks.",
-    link: "#",
+    title: "Obesity Prediction",
+    desc: "A machine learning model that predicts obesity based on health and lifestyle factors like BMI, age, and activity level. Uses Random Forest and SVM for accurate prediction.",
+    link: "https://github.com/hasaankhan175/Obesity_Prediction",
   },
   {
-    title: "Recommendation Engine",
-    desc: "Collaborative filtering recommendation system for an e-commerce platform using matrix factorization.",
-    link: "#",
+    title: "AI vs Human Content Detection",
+    desc: "A machine learning-based NLP project that classifies text as AI-generated or human-written. Uses trained models and linguistic features to analyze writing patterns with high accuracy.",
+    link: "https://github.com/hasaankhan175/AI-vs-Human-Content-Detection",
   },
   {
-    title: "Data Warehouse ETL",
-    desc: "Designed a scalable ETL pipeline using Python and SQL for processing 10M+ records daily.",
-    link: "#",
+    title: "Bitcoin Price Forecasting",
+    desc: "A time series forecasting project that predicts Bitcoin prices using historical market data. Applies ARIMA/SARIMA and LSTM to analyze trends and forecast future values.",
+    link: "https://github.com/hasaankhan175/BTC-Price-Prediction",
   },
 ];
 
@@ -43,10 +43,10 @@ const ProjectsSection = () => {
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
           <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
-            My <span className="text-primary glow-text">Projects</span>
+            All <span className="text-primary glow-text">Projects</span>
           </h2>
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-16">
-            A selection of data science and machine learning projects I've worked on.
+            A comprehensive collection of my data science and machine learning projects.
           </p>
         </ScrollReveal>
 
@@ -71,6 +71,8 @@ const ProjectsSection = () => {
                 <p className="text-muted-foreground text-sm flex-1 mb-4">{project.desc}</p>
                 <a
                   href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="font-mono text-xs text-primary hover:underline inline-flex items-center gap-1 transition-all hover:gap-2"
                 >
                   View Project <span>→</span>
